@@ -19,6 +19,11 @@ RE_Effort_Estimation/
 #Exploratory data analysis (EDA) with visualizations
 #Linear Regression model for effort estimation
 #Performance evaluation using metrics like R² score and RMSE
+- Predicts software requirement effort
+- Data preprocessing
+- Machine Learning model training
+- Performance evaluation
+- Visualization of results
 
 🚀 How to Run
 1. Clone the repository
@@ -38,6 +43,19 @@ The dataset (Requirement_Estimation_Dataset.csv) contains features related to so
 >Complexity
 >Productivity Factor
 >Estimated Effort
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+
+## How to Run
+
+git clone https://github.com/SOVIT-07/re_Effort_Estimation.git
+cd re_Effort_Estimation
+python re_effort_estimation.py
 
 🧠 Model Used
 >Linear Regression for continuous effort estimation
